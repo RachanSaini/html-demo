@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Assignment 2</title>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+    <link rel="stylesheet" href="http://localhost:8080/html/Final%20assignment%20html/css/960_12_col.css" />
+    <link rel="stylesheet" href="http://localhost:8080/html/Final%20assignment%20html/css/reset.css" />
+    <link rel="stylesheet" href="http://localhost:8080/html/Final%20assignment%20html/css/text.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="http://localhost:8080/html/Final%20assignment%20html/img/" />
+
+    <style>
+        
+        
+        .parallax{
+        position: relative;
+        opacity: 0.65;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        
+    .topbar{
+        position: fixed;
+        padding-top: 20px;
+        z-index: 999;
+        border-bottom: solid;
+        width: 100%;
+        background-color: antiquewhite;
+    }
+    h1{
+        padding-right: 90px;
+    }
+
+    .container {
+        background-color: rgba(158, 207, 158, 0.933);
+        font-family: 'Pacifico', cursive;  
+        width: 100%;
+        text-align: justify;
+        
+    }
+
+    nav li{
+        display: inline;
+    }
+
+   
+    
+    .hero {
+        background-image: url(img/nature.jpg);
+        min-height: 70%;
+        text-align: center;
+        color: black;
+        padding-top: 30px;
+       
+    }
+    article{
+        text-align: center;
+        color: black;
+        opacity: 90;
+        font-family: 'Pacifico', cursive; 
+        padding-top: 50px; 
+        font-size: 100px;
+    }
+    .hero p{
+        text-align: center;
+        color: black;
+        opacity: 90;
+        font-family: 'Pacifico', cursive; 
+        padding-top: 50px;
+        font-size: 30px; 
+    }
+    .change a{
+        font-size: 20px;
+        padding-right: 80px;
+    }
+    a{
+        
+        text-decoration: none;
+        color: #666;
+    }
+    a:hover{
+        text-decoration: underline;
+        color: #b6b6b6;
+    }
+    .threeColumns {
+        color: #777;
+        background-color: beige;
+        padding: 50px 80px;
+        font-size: 35px;
+        text-align: justify;
+        display: flex;
+        overflow: hidden;
+        padding-right: 50px;
+        font-family: 'Pacifico', cursive;  
+    }
+    
+    
+    .threeColumns img {
+        padding-right: 50px;
+    }
+    .threeColumns a{
+        font-size: 30px;
+    }
+    aside{
+        padding-top: 30px;
+    }
+    
+    blockquote{
+        color: rgba(70, 193, 241, 0.933);
+        font-family: sans-serif;
+        font-size: 30px;
+    }
+    aside p{
+        color: #666;
+    }
+    footer{
+        padding-right: 20px;
+        height: 40px;
+    }
+
+    .more {
+            background-image: url(img/photo5.jpg);
+            min-height: 400px;
+                
+                
+            }
+
+
+    .more h2{
+        font-family: 'Pacifico', cursive; 
+        padding-top: 50px; 
+        font-size: 80px;
+        color: #666;
+        text-align: center;
+        z-index: 999;
+    }
+    .more p{
+        font-family: 'Pacifico', cursive; 
+        padding-top: 50px;
+        font-size: 25px; 
+    }
+    footer{
+        padding-left: 2%;
+        padding-right: 2%;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        display: block;
+    }
+    .item i{
+        padding-right: 12px;
+    }
+        
+    </style>
+
+
+</head>
+<body>
+    <div class="container">
+        <header class="clearfix topbar">
+            <h1 class="grid_4">Photography</h1>
+            <nav class="grid_8 change">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Photos</a></li>
+                    <li><a href="#">Information</a></li>
+                    <li><a href="#">Blog</a></li>
+
+                </ul>
+            </nav>
+        </header>
+    </div>
+    
+    <div class="hero parallax">
+        <article>Talented Photography</article>
+        <p>
+                Photographers who are consistently able to create compelling and evocative pictures with a normal lens have always impressed me. This ability can only mean a highly developed eye, in control of composition through use of camera position, perspective, light, design and anticipation. Wide-angle or telephoto lenses, while perfectly valid and immensely useful tools, can sometimes be leaned on excessively as a sort of compositional crutch—a means to add visual drama through their significant departure from the way in which we experience the world through our eyes.
+        </p>
+    </div>
+    
+
+    <div class="threeColumns">
+            <figure>
+                <a href="#">Camera</a>
+                <img src="img/photo1.jpg"/>
+            </figure>
+            <figure>
+                <a href="#">Potrait</a>
+                <img src="img/photo2.jpg"/>
+
+            </figure>
+            <figure>
+                <a href="#">Nature</a>
+                <img src="img/photo3.jpg"/>
+            </figure>
+            
+            <aside>
+                <blockquote>“In photography there is a reality so subtle that it becomes more real than reality.”</blockquote>
+                <p>---Sarah Angius</p>
+            </aside>
+    </div>
+    <div class="more parallax">
+
+         
+
+        <section>
+            <h2>Still Photography</h2>
+            <p>
+                    Still photography is the practice of making non-moving photographs, as distinct from motion picture photography (cinematography). In the motion picture industry, a person making still photographs is known as the unit still photographer.
+            </p>
+        </section>
+
+    </div>
+    <footer>
+        <div class="item">
+            <a target="_blank" href="https://facebook.com">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a target="_blank" href="https://instagram.com">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a target="_blank" href="https://meowcherie.tumblr.com">
+                <i class="fab fa-tumblr-square"></i>
+            </a>
+        </div>   
+               
+        
+                
+        
+    </footer>
+    
+</body>
+</html>
